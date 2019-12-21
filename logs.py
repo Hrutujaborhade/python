@@ -1,0 +1,12 @@
+import datetime
+a=input("Enter your message: ")
+b=input("Enter type of message: ")
+x=str(datetime.datetime.now())
+f=open("log.txt",'a')
+f.write(a)
+f.write("\n")
+f.write(b)
+f.write("\n")
+f.write(x)
+f.write("\n\n")
+f.close()
